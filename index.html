@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Uncommon Instruments</title>
+</head>
+<body>
+	<header>
+		<h1>Interesting and Uncommon Musical Instruments</h1>
+		<nav>
+			<!--Insert code for nav bar  -->
+
+		</nav>
+	</header>
+	<hr>
+	<main>
+		<h2>These are some cool instruments I found browsing the web.
+		Click on the names in the table to get a detailed description.</h2>
+		<table border="1" width="40%">
+		  <thead>
+		    <tr>
+		      <th>Number</th>
+		      <th>Name</th>
+		      <th>Image</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>1</td>
+		      <td><a href="cuica.html">Cuica</a></td>
+		      <td><img src="90px-Cuica_ArM.jpg" alt="Cuica Instrument" title="Cuica"></td>
+		    </tr>
+		    <tr>
+		      <td>2</td>
+		      <td><a href="triangle.html">Triangle</a></td>
+		      <td><img src="120px-Triangle_001.jpg" alt="Triangle Instrument" title="Triangle"></td>
+		    </tr>
+		    <tr>
+		      <td>1</td>
+		      <td><a href="cavaquinho.html">Cavaquinho</a></td>
+		      <td><img src="120px-2_cavaquinhos_3.jpg" alt="Cavaquinho Instrument" title="Cavaquinho"></td>
+		    </tr>
+		  </tbody>
+		  <tfoot>
+		    <tr>
+		      <td colspan="3">Total: 4</td>
+		    </tr>
+		  </tfoot>
+		</table>
+
+		<hr>
+		<h2>Please help me add more instruments to this list by sending information on instruments you've researched:</h2>
+		<!-- Form to submitt new instruments to the list -->
+		<form action="success.html" method="post">
+			<fieldset>
+    		<legend>Personal information:</legend>
+    		<label>Name:</label>
+				<input type="text" name="first-name" placeholder="First Name">
+				<input type="text" name="last-name" placeholder="Last Name">
+			</fieldset>
+			<fieldset>
+    		<legend>Instrument Information:</legend>
+					<div>
+						<label>Name of the instrument:</label>
+						<input type="text" name="instrument-name">
+					</div><br>
+					<div>
+						<label>Description:</label><br>
+						<textarea name="instrument-description" cols="50" rows="10">Instrument Details:</textarea>
+					</div><br>
+					<div>
+						<label>Submit an mp3 file:</label>
+						<input type="file" name="instrument-mp3">
+					</div><br>
+					<div>
+						<button>Send Information</button>
+					</div>
+				</fieldset>
+		</form>
+
+	</main>
+	<hr>
+	<footer>
+		<em>by JAB</em>
+	</footer>
+</body>
+</html>
