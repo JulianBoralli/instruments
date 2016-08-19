@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
 	<header>
 		<h1>Interesting and Uncommon Musical Instruments</h1>
 		<nav>
@@ -13,93 +14,101 @@
 
 		</nav>
 	</header>
-	<hr>
-	<main>
-		<h2>These are some cool instruments I found browsing the web.
-		Click on the names in the table to get a detailed description.</h2>
-		<table border="1" width="40%">
-		  <thead>
-		    <tr>
-		      <th>Number</th>
-		      <th>Name</th>
-		      <th>Image</th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <td>1</td>
-		      <td><a href="cuica.html">Cuica</a></td>
-		      <td><img src="90px-Cuica_ArM.jpg" alt="Cuica Instrument" title="Cuica"></td>
-		    </tr>
-		    <tr>
-		      <td>2</td>
-		      <td><a href="triangle.html">Triangle</a></td>
-		      <td><img src="120px-Triangle_001.jpg" alt="Triangle Instrument" title="Triangle"></td>
-		    </tr>
-		    <tr>
-		      <td>1</td>
-		      <td><a href="cavaquinho.html">Cavaquinho</a></td>
-		      <td><img src="120px-2_cavaquinhos_3.jpg" alt="Cavaquinho Instrument" title="Cavaquinho"></td>
-		    </tr>
-		  </tbody>
-		  <tfoot>
-		    <tr>
-		      <td colspan="3">Total: 4</td>
-		    </tr>
-		  </tfoot>
-		</table>
 
-		<hr>
-		<h2>Please help me add more instruments to this list, by sending information on instruments you've researched.</h2>
-		<!-- Form to submitt new instruments to the list -->
-		<form action="success.html" method="">
-			<fieldset>
-    		<legend>Personal information:</legend>
-    		<label>Name:</label>
-				<input type="text" name="first-name" placeholder="First Name">
-				<input type="text" name="last-name" placeholder="Last Name">
-			</fieldset>
-			<fieldset>
-    		<legend>Instrument Information:</legend>
-					<div>
-						<label>Name of the instrument:</label>
-						<input type="text" name="instrument-name">
-					</div><br>
-					<div>
-						<label>Description:</label><br>
-						<textarea name="instrument-description" cols="50" rows="10">Instrument Details:</textarea>
-					</div><br>
-					<div>
-						<label>Submit an mp3 file:</label>
-						<input type="file" name="instrument-mp3">
-					</div><br>
-					<div>
-						<button>Send Information</button>
-					</div>
+	<main>
+
+		<section id="table">
+			<h2>These are some cool instruments I found browsing the web.
+			Click on the names in the table to get a detailed description.</h2>
+			<table>
+			  <thead>
+			    <tr>
+			      <th>Number</th>
+			      <th>Name</th>
+			      <th>Image</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td>1</td>
+			      <td><a href="cuica.html">Cuica</a></td>
+			      <td><img src="90px-Cuica_ArM.jpg" alt="Cuica Instrument" title="Cuica"></td>
+			    </tr>
+			    <tr>
+			      <td>2</td>
+			      <td><a href="triangle.html">Triangle</a></td>
+			      <td><img src="120px-Triangle_001.jpg" alt="Triangle Instrument" title="Triangle"></td>
+			    </tr>
+			    <tr>
+			      <td>1</td>
+			      <td><a href="cavaquinho.html">Cavaquinho</a></td>
+			      <td><img src="120px-2_cavaquinhos_3.jpg" alt="Cavaquinho Instrument" title="Cavaquinho"></td>
+			    </tr>
+			  </tbody>
+			  <tfoot>
+			    <tr>
+			      <td colspan="3">Total: 4</td>
+			    </tr>
+			  </tfoot>
+			</table>
+		</section>
+
+		<section id="form-section">
+			<h2>Please help me add more instruments to this list, by sending information on instruments you've researched.</h2>
+			<!-- Form to submitt new instruments to the list -->
+			<form action="success.html" method="">
+				<fieldset>
+	    		<legend>Personal information:</legend>
+	    		<label>Name:</label>
+					<input type="text" name="first-name" placeholder="First Name">
+					<input type="text" name="last-name" placeholder="Last Name">
 				</fieldset>
-		</form>
-		<hr>
-		<h2>Research</h2>
-		<p>Here is an interesting website with similar purpose:</p>
-		<a href="http://www.buzzle.com/articles/native-american-musical-instruments.html" target="_blank">Native Amercian Musical Instrument</a>
-		<p>The things I like about this website:</p>
-		<ul>
-			<li>Content is interesting.</li>
-			<li>Articles are well written.</li>
-			<li>Don't Miss section with related articles.</li>
-			<li>Post a comment form is available.</li>
-		</ul>
-		<p>In order, the things I dislike about the webiste:</p>
-		<ol>
-			<li>The Ads.</li>
-			<li><em>The Ads!</em></li>
-			<li><strong>THE ADS!!!</strong></li>
-		</ol>
-		<p>PS: It would also be nice to play the sound of each instrument.</p>
+				<fieldset>
+	    		<legend>Instrument Information:</legend>
+						<div>
+							<label>Name of the instrument:</label>
+							<input type="text" name="instrument-name">
+						</div><br>
+						<div>
+							<label>Description:</label><br>
+							<textarea name="instrument-description" cols="50" rows="10">Instrument Details:</textarea>
+						</div><br>
+						<div>
+							<label>Submit an mp3 file:</label>
+							<input type="file" name="instrument-mp3">
+						</div><br>
+						<div>
+							<button>Send Information</button>
+						</div>
+					</fieldset>
+			</form>
+		</section>
+
+		<article>
+			<h2>Research</h2>
+			<p>Here is an interesting website with similar purpose:</p>
+			<a href="http://www.buzzle.com/articles/native-american-musical-instruments.html" target="_blank">Native Amercian Musical Instrument</a>
+			<p>The things I like about this website:</p>
+			<ul>
+				<li>Content is interesting.</li>
+				<li>Articles are well written.</li>
+				<li>Don't Miss section with related articles.</li>
+				<li>Post a comment form is available.</li>
+			</ul>
+			<p>In order, the things I dislike about the webiste:</p>
+			<ol>
+				<li>The Ads.</li>
+				<li><em>The Ads!</em></li>
+				<li><strong>THE ADS!!!</strong></li>
+			</ol>
+			<p>PS: It would also be nice to play the sound of each instrument.</p>
+		</article>
+
 	</main>
-	<hr>
+
 	<footer>
-		<em>by JAB</em>
+		<p><em>by JAB</em></p>
 	</footer>
+
 </body>
 </html>
