@@ -94,3 +94,21 @@ nav {
 	padding-top: 50px;
 	padding-left: 50px;
 }
+
+@media screen and (max-width: 480px) {
+	table {
+		padding: 0px;
+		width: 100%;
+		margin: 10px;
+	}
+	#form-section {
+		width: 480px;
+	}
+}
+@media screen and (max-width: 650px) {
+	body {
+		font-size: 0.8em;
+	}
+}
+
+
